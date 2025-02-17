@@ -1,0 +1,14 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore CSV files
+*.csv
+
+# Virtual environment (ignore all, except the activation script)
+.venv/
+!.venv/bin/activate.nu
+
+# macOS specific file
+.DS_Store 
